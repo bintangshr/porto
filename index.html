@@ -26,7 +26,7 @@
             background-color: var(--bg-dark); color: #fff; overflow-x: hidden;
         }
 
-        
+
         #stars-container {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             z-index: -1; overflow: hidden;
@@ -71,7 +71,7 @@
         }
         @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
 
-       
+        
         .glass-card {
             background: var(--glass-bg); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
             border-radius: 20px; border: 1px solid var(--glass-border); padding: 40px;
@@ -85,7 +85,7 @@
             border: 1px solid var(--primary-color); font-weight: 600; display: flex; align-items: center; gap: 10px;
         }
 
-       
+        
         .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         .project-card {
             background: var(--glass-bg); border-radius: 20px; overflow: hidden;
@@ -132,7 +132,7 @@
         <div class="glass-card" data-tilt>
             <h2>Tentang Saya</h2>
             <p style="text-align: center; color: #ccc; line-height: 1.8; font-size: 1.1rem;">
-                Saya adalah pengembang perangkat lunak pemula dengan passion besar di dunia teknologi. "Bintang" di nama saya bukan hanya hiasan, tapi motivasi untuk terus bersinar melalui karya. Saat ini saya fokus belajar mendalami pengembangan backend yang kokoh dengan <strong>Laravel</strong> dan sedang belajar membuat app mobile yang interaktif menggunakan <strong>React Native</strong>. Saya siap belajar dan berkontribusi di lingkungan startup yang dinamis.
+                Saya adalah pengembang perangkat lunak pemula dengan passion besar di dunia teknologi. "Bintang" di nama saya bukan hanya hiasan, tapi motivasi untuk terus bersinar melalui karya. Saat ini saya fokus belajar mendalami pengembangan backend yang kokoh dengan <strong>Laravel</strong> dan sedang belajar menciptakan pengalaman mobile yang interaktif menggunakan <strong>React Native</strong>. Saya siap belajar dan berkontribusi di lingkungan startup yang dinamis.
             </p>
         </div>
     </section>
@@ -142,8 +142,6 @@
         <div class="skills-grid">
             <div class="skill-tag"><i class="fab fa-laravel text-danger"></i> Laravel</div>
             <div class="skill-tag"><i class="fab fa-php text-primary"></i> PHP</div>
-            <div class="skill-tag"><i class="fab fa-php text-primary"></i> HTML</div>
-            <div class="skill-tag"><i class="fab fa-php text-primary"></i> CSS</div>
             <div class="skill-tag"><i class="fas fa-database"></i> REST API & MySQL</div>
             <div class="skill-tag"><i class="fab fa-react text-info"></i> React Native Basics</div>
             <div class="skill-tag"><i class="fab fa-js text-warning"></i> JavaScript</div>
@@ -157,16 +155,12 @@
 
             <div class="project-card" data-tilt>
                 <div class="project-content">
-                    <h3>💸 Peminjaman Dana UMKM desa Wanurejo</h3>
+                    <h3>💸Peminjaman Dana UMKM di desa Wanurejo </h3>
                     <p>Sistem informasi berbasis web untuk digitalisasi proses pengajuan pinjaman modal usaha bagi UMKM di Desa Wanurejo. Fitur mencakup pendaftaran pemohon, upload berkas persyaratan, verifikasi admin desa, hingga tracking status pengajuan secara <em>real-time</em>.</p>
-                    
                     <div class="tech-stack mb-3">
-                        <small>Laravel 11</small> 
-                        <small>MySQL</small> 
-                        <small>Bootstrap/Tailwind</small>
+                        <small>Laravel 11</small> <small>PHP</small> <small>MySQL</small> <small>Bootstrap/Tailwind</small>
                     </div>
-                        <a href="https://github.com/bintangshr/Peminjaman-Dana-UMKM" target="_blank" class="btn btn-outline-primary w-100"><i class="fab fa-github"></i> Lihat Source Code</a>
-                    </div>
+                    <a href="https://github.com/bintangshr/Peminjaman-Dana-UMKM" target="_blank" class="btn btn-outline w-100">Lihat Source Code <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -174,16 +168,10 @@
                 <div class="project-content">
                     <h3>🗺️ Symphony Surabaya</h3>
                     <p>Aplikasi Android Native sebagai panduan wisata kota Surabaya. Menyajikan daftar rekomendasi kuliner, tempat wisata, dan <em>place to go</em> populer untuk memudahkan eksplorasi pengguna.</p>
-                    
                     <div class="tech-stack mb-3">
-                        <small>Android Native</small> 
-                        <small>Kotlin/Java</small> 
-                        <small>XML Layout</small>
+                        <small>Android Native</small> <small>Kotlin/Java</small> <small>XML Layout</small>
                     </div>
-
-                    <a href="https://github.com/bintangshr/Symphony" target="_blank" class="btn btn-outline w-100">
-                        Lihat Source Code <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <a href="https://github.com/bintangshr/Symphony" target="_blank" class="btn btn-outline w-100">Lihat Source Code <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -206,7 +194,3 @@
 
 </body>
 </html>
-
-
-
-
